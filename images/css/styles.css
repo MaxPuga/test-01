@@ -1,0 +1,130 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== Container and Layout ===== */
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ===== Header ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e7e9fc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 24px;
+  color: #4d5ae5;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-style: normal;
+  margin-top: 10px;
+}
+
+/* ===== Hero Section ===== */
+section:first-of-type {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #2e2f42;
+  color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+section:first-of-type h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ===== Benefits Section ===== */
+section:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+
+section:nth-of-type(2) ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  list-style: none;
+}
+
+section:nth-of-type(2) h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* ===== Team Section ===== */
+section:nth-of-type(3) {
+  margin-bottom: 60px;
+}
+
+section:nth-of-type(3) h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+section:nth-of-type(3) ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  list-style: none;
+}
+
+section:nth-of-type(3) li {
+  text-align: center;
+  border: 1px solid #e7e9fc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* ===== Footer ===== */
+footer {
+  padding-top: 20px;
+  border-top: 2px solid #e7e9fc;
+  text-align: center;
+  color: #4d5ae5;
+}
