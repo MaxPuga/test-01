@@ -121,10 +121,18 @@ section:nth-of-type(3) li {
   border-radius: 8px;
 }
 
+/* ===== Portfolio Section ===== */
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* ===== Footer ===== */
 footer {
   padding-top: 20px;
-  border-top: 2px solid #e7e9fc;
-  text-align: center;
-  color: #4d5ae5;
+  border-top: 2px solid #ffffff;
+  background-color: #2e2f42;
+  color: #ffffff;
 }
