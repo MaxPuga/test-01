@@ -1,138 +1,45 @@
-/* ===== Reset ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #2e2f42;
-  background-color: #ffffff;
-  line-height: 1.5;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* ===== Container and Layout ===== */
-body {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 /* ===== Header ===== */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #e7e9fc;
-}
 
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-}
-
-header a {
-  font-weight: 700;
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
+  color: #2e2f42;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo-accent {
   color: #4d5ae5;
 }
 
-address {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-style: normal;
-  margin-top: 10px;
+.logo:hover {
+  opacity: 0.8;
 }
 
-/* ===== Hero Section ===== */
-section:first-of-type {
+.hero {
+  font-size: 56px;
   text-align: center;
   padding: 60px 20px;
+  border-radius: 0;
   background-color: #2e2f42;
   color: #ffffff;
-  border-radius: 8px;
   margin-bottom: 40px;
+  height: 600px;
 }
 
-section:first-of-type h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 16px;
+.hero-button {
   background-color: #4d5ae5;
   color: #ffffff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  font-size: 16px;
 }
-
-/* ===== Benefits Section ===== */
-section:nth-of-type(2) {
-  margin-bottom: 40px;
-}
-
-section:nth-of-type(2) ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
-  list-style: none;
-}
-
-section:nth-of-type(2) h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-/* ===== Team Section ===== */
-section:nth-of-type(3) {
-  margin-bottom: 60px;
-}
-
-section:nth-of-type(3) h2 {
-  text-align: center;
-  font-size: 32px;
-  margin-bottom: 30px;
-}
-
-section:nth-of-type(3) ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
-  list-style: none;
-}
-
-section:nth-of-type(3) li {
-  text-align: center;
-  border: 1px solid #e7e9fc;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-/* ===== Portfolio Section ===== */
 
 ul {
+  display: flex;
   list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* ===== Footer ===== */
-footer {
-  padding-top: 20px;
-  border-top: 2px solid #ffffff;
-  background-color: #2e2f42;
-  color: #ffffff;
+  gap: 20px;
 }
